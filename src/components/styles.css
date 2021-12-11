@@ -1,0 +1,29 @@
+/* Fuentes */
+
+@font-face {
+    font-family: DS-DIGI;
+    src: local('DS-DIGI'), url(../fonts/ds_digital/DS-DIGIB.TTF);
+}
+
+
+/* Componentes de temperatura */
+
+.analogTemperatureComponent {
+    width: 100%;
+    height: 100%;
+    border: solid;
+    border-radius: 50%;
+    border-width: 1px;
+    border-color: blue;
+}
+
+.digitalTemperatureComponent {
+    font-family: DS-DIGI, SERIF;
+    font-size: 30px;
+    background-color: rgb(161, 161, 161);
+    color: white;
+    }
+
+.digitalData {
+    font-size: 60px;
+}    
